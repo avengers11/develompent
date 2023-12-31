@@ -1,0 +1,221 @@
+#icons_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
+  margin-bottom: 2rem;
+  z-index: 30;
+  position: relative;
+}
+#icons_wrapper .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+}
+#icons_wrapper .wrap .bar {
+  width: 5px;
+}
+#icons_wrapper .wrap .logo {
+  width: 8rem;
+}
+
+#icons_wrapper_f {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 55px;
+  margin-bottom: 3.5rem;
+  margin-top: 3.5rem;
+  margin-left: 50px;
+}
+#icons_wrapper_f .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#icons_wrapper_f .wrap .logo {
+  width: 7rem;
+}
+#icons_wrapper_f .wrap:nth-child(1) .logo {
+  width: 6.6rem;
+}
+#icons_wrapper_f .wrap:nth-child(2) .logo {
+  width: 6rem;
+}
+#icons_wrapper_f .wrap:nth-child(3) .logo {
+  width: 7rem;
+}
+#icons_wrapper_f .wrap:nth-child(4) .logo {
+  width: 7.6rem;
+}
+#icons_wrapper_f .wrap:nth-child(5) .logo {
+  width: 6.4rem;
+}
+
+.hm_btn {
+  background: none !important;
+  border: 5px solid #00A19A !important;
+  color: #A8ABB5 !important;
+}
+
+img.pentaforce_img.flex-1.object-contain.w-full.aspect-\[3\/2\] {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+button#LoginFormButton {
+  background: linear-gradient(261deg, #00A19A 7.2%, #32E3B9 95.85%);
+  border-radius: 80px;
+  color: #FFF !important;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 14px !important;
+}
+
+#RegisterFormButton, #PasswordResetFormButton {
+  background: linear-gradient(261deg, #00A19A 7.2%, #32E3B9 95.85%);
+  border-radius: 80px;
+  color: #FFF !important;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 14px !important;
+}
+
+.page.page-auth .remember_me {
+  color: #B9B9B9;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 2px;
+}
+
+.page.page-auth .forget {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.page.page-auth .form-check-input {
+  border: 2px solid #9DA5B0;
+  background: transparent;
+}
+
+.page.page-auth .form-check-input:checked {
+  background-color: #09ADA0 !important;
+}
+
+.page.page-auth .form-control {
+  border: 2px solid #9DA5B0 !important;
+}
+
+.page.page-auth {
+  background: #ECEAEA;
+  overflow: hidden;
+}
+
+.page.page-auth .container {
+  position: relative;
+  z-index: 1000;
+}
+
+.page.page-auth .container::before {
+  content: "";
+  position: absolute;
+  right: -499rem;
+  top: 0;
+  height: 100%;
+  width: 500rem;
+  background: linear-gradient(#09ADA0 100%, #2EDEB6 100%);
+  z-index: -1;
+}
+
+.d\:block {
+  display: block !important;
+}
+
+.container.pv_tr_ck {
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+}
+.container.pv_tr_ck h2, .container.pv_tr_ck h1 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.container.pv_tr_ck p {
+  margin-bottom: 10px;
+}
+.container.pv_tr_ck ul {
+  margin-left: 20px;
+}
+.container.pv_tr_ck ul li {
+  list-style: initial;
+}
+
+@media only screen and (max-width: 640px) {
+  #icons_wrapper .wrap .bar {
+    width: 3px;
+  }
+  #icons_wrapper .wrap {
+    gap: 15px;
+  }
+  img.pentaforce_img.flex-1.object-contain.w-full.aspect-\[3\/2\] {
+    padding: 10px;
+    border-radius: 35px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .z-10.p-2.bg-white.rounded-full.shadow.button-prev, .z-10.p-2.bg-white.rounded-full.button-next {
+    margin-top: 95px;
+  }
+  .page.page-auth {
+    background: #ECEAEA;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #icons_wrapper .wrap .bar {
+    width: 3.4px;
+  }
+  #icons_wrapper .wrap {
+    gap: 18px;
+  }
+  .page.page-auth .container::before {
+    height: 0;
+    width: 0;
+  }
+  .m\:text-center {
+    text-align: center !important;
+  }
+  .md\:hidden {
+    display: none;
+  }
+  .page.page-auth .trr {
+    gap: 10vh !important;
+  }
+  .container.pv_tr_ck {
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .lg\:hidden {
+    display: none !important;
+  }
+  .md\:hidden {
+    display: block !important;
+  }
+}
+@media (min-width: 1400px) {
+  .page.page-auth .container {
+    max-width: 1800px;
+  }
+}/*# sourceMappingURL=mr_wrapper.css.map */

@@ -1,0 +1,32 @@
+.signInBtn, .startMakingMoney{
+    border-radius: 1000px;
+    background: linear-gradient(206deg, #32E3B9 0%, #22A57D 100%);
+}
+
+.mainSlider{
+    box-shadow: 0px 3.2375px 5.0875px 0px rgba(0, 0, 0, 0.02)
+}
+
+
+.carousel_2{
+    margin-left: 30%;
+}
+
+@media screen and (max-width: 5000px) {
+    .carousel_2{
+        margin-left: 32%;
+    }
+}
+
+@media screen and (max-width: 6000px) {
+    .carousel_2{
+        margin-left: 16%;
+    }
+}
+
+@media screen and (max-width: 7000px) {
+    .carousel_2{
+        margin-left: 25%;
+    }
+}
+
